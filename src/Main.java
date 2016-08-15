@@ -328,9 +328,7 @@ public class Main extends Application {
                 "\nCode Team: \n" +
                         "Dariush Daneshvar \n"  +
                         "Jakub Koziol \n" +
-                        "Cece Stewart \n" +
-                        "Leo Gzeeb \n" +
-                        "Christian Carreno \n" +
+                        "Cece Stewart \n\n" +
                         "©Quiksilver 2016-3000 \n" +
                         "All rights reserved\n" +
                         "\nClick anywhere to return to menu";
@@ -376,7 +374,7 @@ public class Main extends Application {
                 )
                 .build();
         // change here to your path
-        String musicFile = "F:\\Java intelij\\FinalProject2\\src\\music_credits.mp3";
+        String musicFile = "src/music_credits.mp3";
 
         Media sound = new Media(new File(musicFile).toURI().toString());
         MediaPlayer mediaPlayer = new MediaPlayer(sound);
